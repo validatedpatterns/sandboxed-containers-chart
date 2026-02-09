@@ -1,3 +1,7 @@
 ---
 # Chart-specific values
 # Common values are inherited from values-global.yaml
+
+# Sandbox-specific configuration
+sandbox:
+  sshKey: secret/data/global/sshKey

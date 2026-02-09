@@ -1,4 +1,4 @@
-{{- if and (.Values.global.coco.enableSSHDebug) (ne .Values.global.secretStore.backend "none") (eq .Values.global.clusterPlatform "Azure") }}
+{{- if and (dig "coco" "enableSSHDebug" false .Values.global) (ne (.Values.global.secretStore.backend | default "none") "none") (eq (.Values.global.clusterPlatform | default "") "Azure") }}
 ---
 apiVersion: "external-secrets.io/v1beta1"
 kind: ExternalSecret

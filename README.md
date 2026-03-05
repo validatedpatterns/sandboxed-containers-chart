@@ -1,6 +1,6 @@
 # sandboxed-containers
 
-![Version: 0.0.2](https://img.shields.io/badge/Version-0.0.2-informational?style=flat-square)
+![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
 
 A Helm chart to provide an opinionated deployment of Sandboxed Containers in a validated pattern
 

@@ -20,6 +20,8 @@ Along side this is a small number of imperative jobs which can be seen in the co
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
+| global.clusterPlatform | string | `""` |  |
+| global.secretStore.backend | string | `""` |  |
 | sandbox.sshKey | string | `"secret/data/global/sshKey"` |  |
 
 ----------------------------------------------
